@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    /* border: 1px solid red; */
 }
 @media (max-width:880px) {
     .sec1{
@@ -13,7 +14,17 @@
     }
 }
 @media (max-width:768px) {
-    .left>p>input{
+    .right>.f{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .right>.h{
+        float: right;
+    }
+}
+@media (max-width:768px) {
+    .middle>div{
         display: none;
     }
 }
@@ -45,18 +56,17 @@
     color: #ffffff;
     background-color: #eeeeee;
 }
-.row>.middle>nav>div>.collapse>ul>li>i{
+.row>.middle>div>i{
     padding: 15px;
     padding-left: 35px;
     padding-right: 35px;
-    margin-right: 20px;
 }
-.row>.middle>nav>div>.collapse>ul>li>i:hover{
+.row>.middle>div>i:hover{
     cursor: pointer;
     background-color: #f3f3f3;
 }
 .row>.right{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .row>.right>i{
     padding: 10px;
@@ -64,19 +74,6 @@
     border-radius: 50px;
     background-color: #f3f3f3;
     justify-content: space-between;
-}
-.row>.right>img{
-    border-radius: 50px;
-    margin-top: 5px;
-}
-.row>.right>span{
-    padding-top: 6px;
-    padding-right: 6px;
-    padding-left: 6px;
-    padding-bottom:6px; 
-    margin-right: 5px;
-    border-radius: 50px;
-    background-color: #f3f3f3;
 }
 .part1{
     padding-top: 10px;
@@ -239,9 +236,12 @@
     background-image: url(img/sir\ riz.jpg);
     cursor: pointer;
 }
-.sr>img{
-    margin-top: 10px;
-    margin-left: -70px;
+.sr>div{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.sr>div>img{
     border: 2px solid #0077ff;
     border-radius: 50px;
     justify-content: left;
@@ -249,7 +249,7 @@
 .sr>h6{
     text-align: left;
     padding-left: 10px;
-    margin-top: 130px;
+    margin-top: 180px;
     color: #ffffff;
 }
 .sr:hover{
@@ -267,9 +267,12 @@
     background-image: url(img/m2.jpg);
     cursor: pointer;
 }
-.m1>img{
-    margin-top: 10px;
-    margin-left: -70px;
+.m1>div{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.m1>div>img{
     border: 2px solid #0077ff;
     border-radius: 50px;
     justify-content: left;
@@ -277,7 +280,7 @@
 .m1>h6{
     text-align: left;
     padding-left: 10px;
-    margin-top: 130px;
+    margin-top: 180px;
     color: #ffffff;
 }
 .m1:hover{
@@ -293,9 +296,12 @@
     background-position: top;
     background-image: url(img/os1.jpg);
 }
-.a>img{
-    margin-top: 10px;
-    margin-left: -70px;
+.a>div{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.a>div>img{
     border: 2px solid #0077ff;
     border-radius: 50px;
     justify-content: left;
@@ -303,7 +309,7 @@
 .a>h6{
     text-align: left;
     padding-left: 10px;
-    margin-top: 130px;
+    margin-top: 180px;
     color: #ffffff;
 }
 .a:hover{
